@@ -341,3 +341,8 @@ EOT
     export PATH="/usr/local/opt/ruby/bin:$PATH"
     export PATH="$HOME/.gem/ruby/2.6.0/bin:$PATH"
     export PATH="$HOME/.cargo/bin:$PATH"
+
+#   ---------------------------------------
+#   Mac
+#   ---------------------------------------
+    export BASH_SILENCE_DEPRECATION_WARNING=1  # Suppress warning message
