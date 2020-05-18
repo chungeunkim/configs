@@ -1,12 +1,19 @@
 # configs
-My personal config files
+Personal config files for developement setup.
 
-## Bash
+1. Clone the git repository to the local directory.
 ```
-ln -s config/.bash_profile ~/.bash_profile
+git clone --depth=1 https://github.com/chungeunkim/configs ~/configs
 ```
 
-## Vim
+2. Install .bash_profile
 ```
-ln -s config/.vim/.vimrc ~/.vimrc
+cd ~
+./configs/install_bash_profile.sh
+```
+
+3. Install .vimrc
+```
+cd ~
+./configs/install_vimrc.sh
 ```
